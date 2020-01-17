@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
+import "rbx/index.css";
+import { Button, Container, Message, Title, Card } from "rbx";
 const App = () => {
   const [data, setData] = useState({});
   const products = Object.values(data);
@@ -13,9 +14,10 @@ const App = () => {
   }, []);
 
   return (
-    <ul>
-      {products.map(product => <li key={product.sku}>{product.title}</li>)}
-    </ul>
+    <div class="card_container">
+      {products.map(product => <Card key={product.sku}><img src={"./data/products/" + product.sku + "_1.jpg"} /> <h3>{product.title}</h3></Card>)}
+    </div>
+    
   );
 };
 
