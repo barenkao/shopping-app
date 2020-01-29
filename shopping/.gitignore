@@ -6,7 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 firebase-debug.log*
 node_modules
-.gitignore
+package-lock.json
+package.json
+public/.DS_Store
 # Firebase cache
 .firebase/
 

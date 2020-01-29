@@ -20,14 +20,62 @@ code {
   flex-direction: row;
   align-content: center;
   justify-content: center;
+  padding-top: 80px;
 }
   
 .card {
-  width: 24%;
+  width: 20%;
   margin: 1%;
   text-align: center;
 }
   
 .card h3 {
   font-weight: bold;
+  font-size: 20px;
+}
+
+.card h1 {
+  color: gray;
+}
+
+#description{
+  height: 20px;
+}
+.card p {
+  font-size: 20px;
+}
+
+#title {
+  font-size: 60px;
+}
+
+#cart {
+  float: right !important;
+  position: fixed;
+  display: inline;
+  background-color: pink !important;
+  border: none;
+}
+#icon {
+  margin-right: 20px;
+  margin-top: 15px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  float: right !important;
+}
+
+.navbar {
+  position: fixed !important;
+  display: inline !important;
+  width: 100%;
+  background-color: pink !important;
+  height: 90px;
+  text-align: center;  
+}
+
+
+#cartWindow {
+  height: 200px;
+  width: 100px;
 }
